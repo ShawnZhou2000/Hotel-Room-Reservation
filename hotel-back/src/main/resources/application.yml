@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/javaweb_keshe?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+      max-active: 20
+      max-wait: 5000
+      initial-size: 2
+
+mybatis-plus:
+  mapper-locations:
+    - classpath:mapper/*.xml
+  type-aliases-package: com.javaee.keshe.domain
+  global-config:
+    db-config:
+      id-type: auto
+    banner: false
+
+server:
+  port: 8090
+

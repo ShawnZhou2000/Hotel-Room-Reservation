@@ -1,0 +1,40 @@
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.mr-1 {
+  margin-left: 1rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
